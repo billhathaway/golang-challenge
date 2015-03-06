@@ -3,6 +3,7 @@ package drum
 import (
 	"fmt"
 	"path"
+	"testing"
 )
 
 // TestDecodeFile checks common splice files to verify the decoding works properly.
