@@ -3,9 +3,9 @@ package drum
 import (
 	"fmt"
 	"path"
-	"testing"
 )
 
+// TestDecodeFile checks common splice files to verify the decoding works properly.
 func TestDecodeFile(t *testing.T) {
 	tData := []struct {
 		path   string
